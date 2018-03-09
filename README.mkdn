@@ -4,6 +4,12 @@
 
 スクリプト置いてく
 
+## Require
+
+* `bash`, `git`, `android-sdk`, `android-ndk`, [`cloud-dl`](https://github.com/cghdev/cloud-dl)
+    - PATH通しておいてね
+* Adaway, Tusky: `~/android` 以下に同名でcloneされており、masterを指していること
+
 ## License
 
 - Scripts are licensed under [WTFPL](http://www.wtfpl.net/).
