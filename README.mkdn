@@ -4,17 +4,23 @@
 
 スクリプト置いてく
 
-## Require
+## Description
 
 ### buildAdaway, buildTusky
 
-* `bash`, `git`, `android-sdk`, `android-ndk`, [`cloud-dl`](https://github.com/cghdev/cloud-dl)
+* require: `bash`, `git`, `android-sdk`, `android-ndk`, [`cloud-dl`](https://github.com/cghdev/cloud-dl)
     - PATH通しておいてね
-* Adaway, Tusky: `~/android` 以下に同名でcloneされており、masterを指していること
+* Adaway, Tusky は `~/android` 以下に同名でcloneされており、masterを指していること
 
 ### setupAndroidBuildEnv
 
-* Ubuntu 16.04.x or later
+* require: Ubuntu 16.04.x or later
+* 叩くと必要なパッケージとかが揃うはず。
+* 任意のクラウド/VPSで使うの前提なのでそのまま叩くとgitのユーザ情報が `android <android>` になります。
+
+```
+curl -sL https://raw.githubusercontent.com/lindwurm/Scripts/master/setupAndroidBuildEnv.sh | bash -
+```
 
 ## License
 
