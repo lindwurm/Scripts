@@ -14,12 +14,18 @@
 
 ### setupAndroidBuildEnv
 
-* require: Ubuntu 16.04.x or later
+* require: Ubuntu 16.04.x or later, `curl`
 * 叩くと必要なパッケージとかが揃うはず。
 * 任意のクラウド/VPSで使うの前提なのでそのまま叩くとgitのユーザ情報が `android <android>` になります。
 
 ```
 curl -sL https://raw.githubusercontent.com/lindwurm/Scripts/master/setupAndroidBuildEnv.sh | bash -
+```
+
+curl入ってないときの真の面倒臭がりさん向け:
+
+```
+sudo apt update && sudo apt -y install curl && curl -sL https://raw.githubusercontent.com/lindwurm/Scripts/master/setupAndroidBuildEnv.sh | bash -
 ```
 
 ## License
