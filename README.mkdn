@@ -12,6 +12,13 @@
     - PATH通しておいてね
 * Adaway, Tusky は `~/android` 以下に同名でcloneされており、masterを指していること
 
+### buildOpenGApps
+
+* `../opengapps` に https://github.com/opengapps/opengapps がcloneされている前提
+* Ubuntuだと依存パッケージは https://mfonville.github.io/android-build-tools/ で楽に揃う
+* それとcloud-dl
+* arm64, API level 27 (Android 8.1), nano
+
 ### setupAndroidBuildEnv
 
 * require: Ubuntu 16.04.x or later, `curl`
