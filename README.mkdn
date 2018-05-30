@@ -18,6 +18,7 @@
 * Ubuntuだと依存パッケージは https://mfonville.github.io/android-build-tools/ で楽に揃う
 * それとcloud-dl
 * arm64, API level 27 (Android 8.1), nano
+* この成果物を公開で配布するのは推奨しない
 
 ### setupAndroidBuildEnv
 
